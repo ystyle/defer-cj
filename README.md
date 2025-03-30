@@ -58,6 +58,8 @@ func withException():Unit {
 //         at example.main()(/home/ystyle/Projects/defer-cj/example/src/main.cj.macrocall:23)
 ```
 
+更多示例请看[example](example/src/main.cj)
+
 ## 注意事项
 
 1. **变量捕获**：defer 语句在是lambda表达式执行的， 捕获的是应该是不可变的变量
