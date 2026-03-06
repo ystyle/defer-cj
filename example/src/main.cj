@@ -1,7 +1,7 @@
 package example
 
 import std.collection.ArrayList
-import defer.*
+import ystyle::defer.*
 
 main() {
     println("myFunc:")

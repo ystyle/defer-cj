@@ -1,5 +1,5 @@
 [dependencies]
-defer = {path = "../"}
+'ystyle::defer' = {path = "../"}
 
 [package]
   cjc-version = "0.59.6"

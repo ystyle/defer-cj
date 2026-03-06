@@ -1,14 +1,19 @@
 [dependencies]
 
 [package]
-  cjc-version = "0.59.6"
-  compile-option = ""
-  description = "nothing here"
-  link-option = ""
   name = "defer"
+  organization = "ystyle"
+  cjc-version = "1.1.0"
+  compile-option = ""
+  description = "宏实现类似 Golang 的 `defer` 机制"
+  link-option = ""
   output-type = "static"
   override-compile-option = ""
   src-dir = ""
   target-dir = ""
   version = "1.0.0"
+  include =["src"]
+  license = ["MulanPSL2"]
+  authors = ["ystyle"]
+  repository = ["https://gitcode.com/ystyle/defer-cj"]
   package-configuration = {}

@@ -1,4 +1,4 @@
-macro package defer
+macro package ystyle::defer
 
 import std.ast.*
 public import std.collection.ArrayList
